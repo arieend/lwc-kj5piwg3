@@ -7,8 +7,8 @@ export default class App extends LightningElement {
 
   get options() {
       return [
-         { label: 'Ross', value: 'option1' },
-          { label: 'Rachel', value: 'option2' },
+         { label: '0502020202', value: '05020202021' },
+         { label: '0509090909', value: '05090909092' },
      ];  
    }
    hanldeSelectedValues(event) {

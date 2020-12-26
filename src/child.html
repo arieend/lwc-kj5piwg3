@@ -4,5 +4,10 @@
 	</div>
 	<lightning-checkbox-group name="Checkbox Group" label="Checkbox Group" options={options} value={value}
 		onchange={handleChange}></lightning-checkbox-group>
-
+	<div class="slds-form-element__control">
+		<!-- <div class="slds-p-around_medium lgc-bg"> -->
+		<lightning-input type="text" label=" " placeholder="Mobile phone number..." onblur={handleInputChange}
+			maxlength="10"></lightning-input>
+		<!-- </div> -->
+	</div>
 </template>
