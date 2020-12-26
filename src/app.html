@@ -1,0 +1,19 @@
+<template>
+	<div class="app slds-p-around_x-large">
+		<h1 class="slds-text-heading_large">{title}</h1>
+		<h3>Check box + one input field </h3>
+		<div class="slds-p-top_large">
+			<h2 class="slds-text-heading_medium">Check Box value list</h2>
+			<c-child options={options} value={value} oncheckboxvalueupdate={hanldeSelectedValues}></c-child>
+			<p> DEBUG: Selected Values are: {selectedValues}</p>
+		</div>
+		<!-- </template> -->
+
+		<h2 class="slds-text-heading_medium slds-p-top_large">Resources</h2>
+		<a href="https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.get_started_introduction">
+			Developer Guide
+		</a><br/>
+		<a href="https://developer.salesforce.com/docs/component-library/overview/components">Component Reference</a>
+
+	</div>
+</template>
